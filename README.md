@@ -1,6 +1,6 @@
-# Canvas Drive Sync (CLI Only)
+# Canvas Drive Sync
 
-This project syncs assignments from Canvas LMS to Google Drive, allowing teachers to automate file collection and organization for their classes using a command-line interface.
+Sync assignments from Canvas LMS to Google Drive, allows automated file collection and organization for classes using a command-line interface.
 
 ## Features
 - Syncs Canvas assignments and student submissions to Google Drive
