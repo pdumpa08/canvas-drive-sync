@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+
+# SQLite database
+*.db
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Jupyter
+*.ipynb
+
+# Misc
+*.bak
+*.swp
+
+# Ignore templates (if recreated)
+templates/
