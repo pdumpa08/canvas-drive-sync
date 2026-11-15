@@ -2,6 +2,14 @@
 
 Sync assignments from Canvas LMS to Google Drive, allows automated file collection and organization for classes using a command-line interface.
 
+Built so instructors can automatically collect, rename, and organize every student submission into Google Drive instead of downloading them by hand.
+
+## How it works
+- **Canvas REST API** (token auth): lists courses, assignments, and submissions
+- **Regex naming rules**: rename files; files that don't match get flagged for review
+- **Google Drive API** (OAuth 2.0): uploads into per-assignment folders
+- **SQLite**: tracks what's already synced so each run only uploads new files
+
 ## Features
 - Syncs Canvas assignments and student submissions to Google Drive
 - Custom naming rules for assignment files (regex)
@@ -15,8 +23,8 @@ Sync assignments from Canvas LMS to Google Drive, allows automated file collecti
 
 ### 1. Clone the Repository
 ```
-git clone <repo-url>
-cd canvas_drive_sync
+git clone https://github.com/pdumpa08/canvas-drive-sync.git
+cd canvas-drive-sync
 ```
 
 ### 2. Install Dependencies
@@ -67,7 +75,3 @@ python main.py
 - Set naming rules as needed.
 - Run the sync worker to collect and organize student submissions in Google Drive.
 
----
-
-## License
-MIT
