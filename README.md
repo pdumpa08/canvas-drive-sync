@@ -1,6 +1,6 @@
 # Canvas Drive Sync
 
-Sync assignments from Canvas LMS to Google Drive, allows automated file collection and organization for classes using a command-line interface.
+A command-line tool that syncs assignment submissions from Canvas LMS to Google Drive, automatically collecting and organizing files for a class.
 
 Built so instructors can automatically collect, rename, and organize every student submission into Google Drive instead of downloading them by hand.
 
